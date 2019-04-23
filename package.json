@@ -1,0 +1,57 @@
+---
+metatype: json
+---
+
+{
+  "identifier": "org.yourdomain.my-markdown-editor",
+  "name": "My Markdown Editor",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "main": "dist/dist.js",
+  "version": "1.0.0",
+  "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
+  "url": "https://domain.org/link-to-hosted-extension",
+  "download_url": "https://github.com/sn-extensions/simple-task-editor/archive/1.2.7.zip",
+  "latest_url": "https://listed.standardnotes.org/my-extension-json-link",
+  "marketing_url": "https://standardnotes.org/extensions/advanced-markdown",
+  "thumbnail_url": "https://domain.org/editors/adv-markdown.jpg"
+    "sn": {
+    "main": "dist/index.html"
+  },
+    "dependencies": {},
+  "devDependencies": {
+    "babel-runtime": "6.x",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react": "15.x",
+    "react-dom": "15.x",
+    "sortablejs": "^1.7.0",
+    "sn-components-api": "1.0.242",
+    "babel-core": "6.x",
+    "babel-eslint": "7.x",
+    "babel-loader": "6.x",
+    "babel-plugin-transform-runtime": "6.x",
+    "babel-preset-es2015": "6.x",
+    "babel-preset-react": "6.x",
+    "babel-preset-stage-0": "6.x",
+    "commitizen": "^2.9.3",
+    "conventional-changelog-cli": "1.x",
+    "copy-webpack-plugin": "latest",
+    "css-loader": "~0.28.7",
+    "cz-conventional-changelog": "^1.2.0",
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-plugin-compat": "^1.0.0",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "3.x",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "latest",
+    "husky": "^0.12.0",
+    "node-sass": "^4.6.0",
+    "open-browser-webpack-plugin": "0.0.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "~0.13.1",
+    "validate-commit-msg": "2.x",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "latest"
+}
